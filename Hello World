@@ -1,1 +1,16 @@
+class First
+{
+  void method1()
+   {
+     System.out.print("Hello World");
+   }
+}
 
+class Hello
+{
+ public static void main(String args[])
+ {
+  First obj= new First();
+  obj.method1();
+ }
+}
